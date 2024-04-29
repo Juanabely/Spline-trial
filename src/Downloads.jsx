@@ -1,6 +1,5 @@
 import React from 'react'
 import './download.css'
-import { color } from 'framer-motion'
 import Window from'./images/window.svg'
 import Mac from './images/mac.svg'
 

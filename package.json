@@ -1,5 +1,5 @@
 {
-  "name": "spline",
+  "name": "spline-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,16 +11,12 @@
   },
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
-    "@splinetool/runtime": "^1.1.9",
     "antd": "^5.16.5",
-    "framer-motion": "^11.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0",
-    "styled-components": "^6.1.8"
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
-    "@swc/core": "^1.5.2",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.5.0",

@@ -1,0 +1,77 @@
+.download-img img{
+    /* background: url('https://th.bing.com/th/id/OIG4.Q4_SRv5bs6LIGqEsPAJk?pid=ImgGn'); */
+    width:450px;
+    height: 450px;
+    float: right;
+    /* margin-top: -300px; */
+}
+.download-img{
+    display: flex;
+    justify-content: center;
+    
+}
+.words{
+    color: aliceblue;
+}
+.words a{
+    outline: solid 1px;
+}
+.downloader{
+    position: absolute;
+  top: 550px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center; 
+  font-size: 40px;
+  color: aliceblue;
+  justify-content: center;
+}
+.downloader img{
+    width: 80px;
+    height: 80px;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.mac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 200px;
+}
+@media (max-width:600px) {
+    .download-img{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        
+    }
+    .words{
+        font-size: 13px;
+    }
+    .downloader{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 140px;
+    }
+    .mac{
+        margin-left: -10px;
+    }
+    .download-img img{
+        width: 250px;
+        height: 400px;
+        margin-left: 20px;
+    }
+    .mobile{
+        margin-top: 20px;
+    }
+}

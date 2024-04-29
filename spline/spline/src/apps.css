@@ -1,0 +1,29 @@
+.cards{
+    
+    margin-top: 100px;
+    margin-left: 90px;
+    outline: solid 3px;
+}
+button{
+    background: rgba(0, 0, 0, 0.2) ;
+    border: 0px;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    max-width: 280px;
+    backdrop-filter: blur(20px);
+  
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  
+    transition: 1s;
+  }
+  button:hover{
+    
+      border: 1px solid rgba(255,255,255,0.8);
+      transform: translateY(-3px);
+  }

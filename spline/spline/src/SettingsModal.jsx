@@ -1,9 +1,7 @@
 import React from 'react'
-import { Button, Modal } from 'antd';
+import {  Modal } from 'antd';
 import './modal.css'
-import { background } from '@chakra-ui/react';
-import { blue } from '@mui/material/colors';
-import { Content } from 'antd/es/layout/layout';
+
 import { Link } from 'react-router-dom';
 
 function SettingsModal({visible, onClose}) {
